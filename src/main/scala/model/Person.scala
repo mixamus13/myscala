@@ -1,5 +1,15 @@
-package org.mixamus.application.model
+package org.mixamus.application
+package model
 
-class Person {
+abstract class Person {
 
+  val name: String
+  val email: String
+  val age: Int
+
+
+}
+
+object Person {
+  BigInt apply (13)
 }
